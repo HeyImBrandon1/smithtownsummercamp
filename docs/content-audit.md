@@ -88,8 +88,8 @@
 
 ### Dates Section
 - Heading: "Dates"
-- Body: "Camp runs for 8 consecutive weeks beginning on Friday June 6th, 2025 through August 21st, 2025. We know that plans can change, that's why we offer the added convenience of being able to rearrange your weeks later on, giving you the ultimate flexibility to make your summer plans perfect."
-- NOTE: Dates need updating for 2026 season
+- Body: "Camp runs for 8 consecutive weeks beginning June 28th through August 21st. We know that plans can change, that's why we offer the added convenience of being able to rearrange your weeks later on, giving you the ultimate flexibility to make your summer plans perfect."
+- CORRECTED: Original site had wrong date (said June 6th, 2025). Actual start is June 28th.
 
 ### Rates Section
 - Heading: "Rates"
@@ -124,7 +124,7 @@
 - Week 6: August 3 - 7
 - Week 7: August 10 - 14
 - Week 8: August 17 - 21
-- NOTE: Schedule needs updating for 2026 season
+- CORRECTED: Season runs June 28 - August 21, 2026. All dates now config-driven.
 
 ---
 

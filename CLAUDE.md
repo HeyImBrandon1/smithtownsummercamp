@@ -237,10 +237,39 @@ chore: add environment variables
 
 ## Session Continuity
 
-Use `/save` to capture session state after each work session.
-Sessions saved to `docs/sessions/MM-DD-YYYY-HHMM-feature-slug.md`.
+Every command saves a session file to `docs/sessions/` with a `## Handoff` prompt at the end. Copy-paste the Handoff into a new terminal to continue where you left off.
+
+- `docs/sessions/` — Session history (one file per terminal session)
+- `docs/PROJECT_SPEC.md` — Project dashboard (current state, status tables, roadmap)
+- `CLAUDE.md` — Development framework (patterns, conventions, code examples)
+
+All three are kept in sync automatically by every command.
 
 ## Workflows
+
+### Build a Feature
+`/go` — Opens /ship + /watch in two terminals (recommended)
+`/ship {feature}` — Full lifecycle: plan → build → polish → verify → save
+
+### Fix a Bug
+`/fix {description}` — Reproduce → diagnose → fix → verify
+
+### Improve Existing Code
+`/polish {feature}` — Audit existing code, find rough edges, fix, verify
+`/refactor {what}` — Restructure code safely: blast radius → manifest → phased execution
+
+### Quality
+`/audit` — Full codebase health check, graded A-F
+`/test {feature}` — Generate tests, run suite, coverage report
+`/perf` — Performance audit: slow code, bundles, queries
+
+### Deploy
+`/deploy` — Pre-flight checks → deployment → health check → rollback plan
+
+### Save & Continue
+`/save` — Save session state + handoff prompt for next terminal
+
+---
 
 ### Adding a Content Page
 1. Create `src/app/(site)/{page}/page.tsx`
